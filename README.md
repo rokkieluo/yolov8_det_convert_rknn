@@ -17,7 +17,7 @@
 创建一个文件夹，进行拉取
 
 ```bash
-git clone https://github.com/rokkieluo/yolo11_convert_rknn.git
+git clone https://github.com/rokkieluo/yolov8_det_convert_rknn.git
 ```
 
 ## 三、更换自己的测试图片和onnx模型
