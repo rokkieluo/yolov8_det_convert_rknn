@@ -28,9 +28,9 @@ git clone https://github.com/rokkieluo/yolov8_det_convert_rknn.git
 
 2.将经过rk-yolov8转换后的onnx模型放入yolov8_det_convert_rknn目录下
 
-## 四、更改onnx_rknn.py
+## 四、更改convert_rknn.py
 
-1.在onnx_rknn.py做如下修改
+1.在convert_rknn.py做如下修改
 
 ![image2](images/image2.png)
 
@@ -40,10 +40,10 @@ QUANTIZE_ON为量化选项，根据自己的情况来决定是否量化，一般
 
 ![image3](images/image3.png)
 
-## 五、终端运行onnx_rknn.py
+## 五、终端运行convert_rknn.py
 
 ```python
-python onnx_rknn.py
+python convert_rknn.py
 ```
 
 运行后即可得到rknn模型，还会生成一个仿真检测图(test_rknn_result.jpg)，用于判断转换的模型有无问题，无问题则如图，至此转换rknn模型成功
